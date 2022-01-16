@@ -1,0 +1,31 @@
+{
+  "name": "p-2",
+  "version": "1.0.0",
+  "description": "<div align=center>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets='@babel/preset-env' --ignore='foo|bar|baz'",
+    "dev": "nodemon --exec npx babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudgns2947/P-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudgns2947/P-2/issues"
+  },
+  "homepage": "https://github.com/dudgns2947/P-2#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8"
+  }
+}
